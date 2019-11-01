@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>More | Kakao clone</title>
+    <!-- Place your kit's code here; fontawesome.com 
+      가입하고 script넢으면 다양한 무료 아이콘 CSS 사용가능-->
+    <script
+      src="https://kit.fontawesome.com/470c920057.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- .status-bar 하고 enter
+    .status-bar*2 하고 enter -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54 </span>
+      </div>
+      <!--fontawesome.com: font-->
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">More</h1>
+      </div>
+      <div class="header__header-column">
+        <!--span.header__icon*3하고 enter-->
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="more">
+      <header class="more__header">
+        <li class="friends_friend friend friend--lg">
+          <div class="friend__column">
+            <img src="baby.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                baby
+              </span>
+            </div>
+            <span class="friend__status">
+              abcdefgh@gmail.com
+            </span>
+          </div>
+          <div class="friend__column">
+            <i class="far fa-comment-alt fa-2x"></i>
+          </div>
+        </li>
+      </header>
+      <section class="more__suggestions">
+        <h5 class="more__title">Suggestions</h5>
+        <ul class="more__suggestions-list">
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
+            <span class="suggestion__title">kakao story</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
+            </span>
+            <span class="suggestion__title">kakao friends</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </span>
+            <span class="suggestion__title">kakao gem</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <!--li.nav__list-item*4>a.nav__list-link하고 enter-->
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
