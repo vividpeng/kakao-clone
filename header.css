@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+.header__title {
+  font-size: 24px;
+  font-weight: 700; /*bold체, 400, 700 down 받았으니까 둘 중에 골라야됨.*/
+}
+.header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.header__header-column {
+  display: flex;
+}
+.header__back-btn {
+  font-size: 12px;
+  margin-right: 10px;
+}

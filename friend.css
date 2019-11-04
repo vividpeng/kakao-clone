@@ -1,0 +1,26 @@
+.friend {
+  display: flex;
+  justify-content: space-between; /*수평 정렬 방식*/
+  align-items: center; /*수직 정렬 방식*/
+}
+
+.friend__avatar {
+  width: 50px;
+  border-radius: 35%;
+  margin-right: 10px;
+}
+.g-avatar {
+}
+.friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend__name {
+  display: block;
+}
+.friend__status {
+  opacity: 0.6;
+}
+.chat__timestamp {
+  opacity: 0.6;
+}

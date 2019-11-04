@@ -1,0 +1,33 @@
+.find__header-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.find__header-btn {
+  display: flex;
+  flex-direction: column; /*새로 가운데 정렬을 위하여 flex 방향을 바꿈*/
+  align-items: center;
+}
+.header-btn__title {
+  display: block;
+}
+.header-btn__title {
+  margin-top: 10px;
+}
+.header-btn__icon {
+  font-size: 13px;
+}
+.find__recommended {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #f7f7f7;
+}
+.find__title {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.friend__add-btn {
+  background-color: rgb(214, 214, 214);
+  padding: 5px;
+  border-radius: 3px;
+}
